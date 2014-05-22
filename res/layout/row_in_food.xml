@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/row_in_food"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFFFF"
+    android:orientation="horizontal" >
+    
+    <CheckBox
+	    android:id="@+id/food_checkbox"
+	    android:layout_weight=".9"
+		android:layout_width="0dip"
+	 	android:layout_height="fill_parent"
+ 		android:layout_marginLeft="5sp"
+ 		android:layout_marginTop="5sp"
+ 		android:layout_marginBottom="5sp"
+ 		android:textSize="16sp"  >
+	</CheckBox>  
+    <ImageButton
+        style="?android:attr/buttonBarButtonStyle"
+        android:id="@+id/food_list_arrow_btn"
+        android:layout_weight=".07"
+		android:layout_width="0dip"
+        android:layout_height="fill_parent"
+ 		android:layout_marginTop="5sp"
+ 		android:layout_marginBottom="5sp"        
+        android:contentDescription="@string/food_list_arrow_desc"
+        android:src="@drawable/ic_go" >
+    </ImageButton>
+    <TextView
+        android:id="@+id/food_list_empty_indicator"
+        android:layout_weight=".01"
+		android:layout_width="0dip"
+        android:layout_height="fill_parent" />    
+</LinearLayout>

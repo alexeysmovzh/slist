@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<LinearLayout
+ 		xmlns:android="http://schemas.android.com/apk/res/android"
+ 		android:layout_width="wrap_content"
+		android:layout_height="match_parent"
+		android:divider="?android:attr/dividerHorizontal"
+		android:showDividers="middle"
+		android:orientation="vertical">
+		    
+			<TextView
+				 android:id="@+id/shopping_list_send_error_dialog_message"
+				 android:layout_width="fill_parent"
+				 android:layout_height="wrap_content"
+				 android:layout_gravity="center"
+				 android:layout_marginTop="10sp"
+				 android:layout_marginBottom="10sp"
+				 android:layout_marginLeft="15sp"
+				 android:layout_marginRight="15sp"
+				 android:textSize="18sp"
+				 android:text="@string/share_action_error">
+			</TextView>
+
+			<Button
+			     style="?android:attr/buttonBarButtonStyle"
+				 android:id="@+id/shopping_list_send_error_dialog_btncancel"
+				 android:layout_width="fill_parent"
+				 android:layout_height="wrap_content"
+				 android:layout_marginTop="5dp"
+				 android:textSize="18sp"
+				 android:text="@string/share_action_dialog_cancel">
+			</Button>
+</LinearLayout>

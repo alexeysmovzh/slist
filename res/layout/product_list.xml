@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ddd">
+    
+    <ListView
+        android:id="@+id/product_list_view"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+	/>
+    
+  <TextView
+    android:id="@+id/product_list_empty"
+    android:text="@string/product_list_empty_view_hint"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:textSize="22sp"
+    android:textStyle="italic"
+    />
+      
+</RelativeLayout>

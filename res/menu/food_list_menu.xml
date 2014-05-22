@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+	<item 
+	    android:id="@+id/food_del"
+	    android:title="@string/food_list_menu_del"	 
+	    android:orderInCategory="0"
+	    android:showAsAction="ifRoom|withText" />
+	<item
+		android:id="@+id/food_add"
+	    android:title="@string/food_list_menu_add"	    
+	    android:orderInCategory="1"
+	    android:showAsAction="ifRoom|withText" />	       	
+	<item
+		android:id="@+id/food_create"
+	    android:title="@string/food_list_menu_create"
+	    android:orderInCategory="1"
+	    android:showAsAction="ifRoom|withText" />
+</menu>

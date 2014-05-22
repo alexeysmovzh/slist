@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SList</string>
+    <string name="action_settings">Параметры</string>
+    <string name="none"></string>
+    
+    <string name="async_title">Прогресс</string>
+    <string name="async_message">Создается список покупок&#8230;</string>
+    
+	<string name="shopping_list_empty_view_hint">Нажмите кнопку \n \'Добавить\' \n что бы добавить первый товар\n\n или перелестните экран вправо \n добавьте блюдо и его ингридиенты \n для автоматического создания списка покупок</string>
+	
+    <string name="shopping_list_menu_clear">Удалить</string>
+	<string name="shopping_list_menu_add">Добавить</string>
+	<string name="shopping_list_menu_send">Переслать</string>
+	
+	<string name="shopping_list_add_dialog_title">Добавить продукт</string>
+	<string name="shopping_list_add_dialog_add">Добавить</string>
+	<string name="shopping_list_add_dialog_cancel">Отмена</string>
+	<string name="shopping_list_add_dialog_hint_name">Введите название продукта</string>
+	<string name="shopping_list_add_dialog_hint_qty">и количество</string>	
+	
+	<string name="shopping_list_clear_dialog_title">Удалить зачеркнутые продукты?</string>
+	<string name="shopping_list_clear_dialog_ok">Удалить</string>
+	<string name="shopping_list_clear_dialog_cancel">Отмена</string>
+	<string name="shopping_list_clear_dialog_hint">Удалить все зачеркнутые продукты?</string>
+	
+	<string name="shopping_list_replace_dialog_title">Заменить или Добавить?</string>
+	<string name="shopping_list_replace_dialog_replace">Заменить</string>
+	<string name="shopping_list_replace_dialog_append">Добавить</string>
+	<string name="shopping_list_replace_dialog_hint">Список покупок содержит записи. Заменить их новыми или Дополнить?</string>
+	
+	<string name="food_list_empty_view_hint">Нажмите кнопку \n \'Добавить\' \n для добавления первого блюда \n\n или перелистните экран влево \n для перехода к списку покупок</string>
+	
+	<string name="food_list_menu_del">Удалить</string>
+	<string name="food_list_menu_add">Добавить</string>
+	<string name="food_list_menu_create">Создать</string>
+	
+	<string name="food_list_arrow_desc">arrow_btn</string>
+	
+	<string name="food_list_add_dialog_title">Добавить блюдо</string>
+	<string name="food_list_add_dialog_title_rename">Переименовать блюдо</string>
+	<string name="food_list_add_dialog_save">Сохранить</string>
+	<string name="food_list_add_dialog_cancel">Отмена</string>
+	<string name="food_list_add_dialog_hint">Введите название блюда</string>
+	
+	<string name="food_list_delete_dialog_title">Удалить выбранные блюда?</string>
+	<string name="food_list_delete_dialog_ok">Удалить</string>
+	<string name="food_list_delete_dialog_cancel">Отмена</string>
+	<string name="food_list_delete_dialog_hint">Вы удаляете следующие блюда:</string>
+	
+	
+	<string name="product_list_empty_view_hint">Нажмите кнопку \n \'Добавить\' \n для добавления продуктов \n \n или перелистните экран влево \n для возвращения к списку блюд</string>		
+	
+	<string name="product_list_menu_delete">Удалить</string>
+	<string name="product_list_menu_add">Добавить</string>
+	
+	<string name="product_list_delete_dialog_title">Удалить выбранные продукты?</string>
+	<string name="product_list_delete_dialog_ok">Удалить</string>
+	<string name="product_list_delete_dialog_cancel">Отмена</string>
+	<string name="product_list_delete_dialog_hint">Вы удаляете следующие продукты:</string>
+	
+	<string name="share_action_title">Переслать с помощью</string>
+	<string name="share_action_subject">Пожалуйста купи продукты</string>
+	<string name="share_action_dialog_title">Ошибка отправки</string>
+	<string name="share_action_dialog_cancel">Закрыть</string>	
+	<string name="share_action_error">На устройстве не найдено ни одной поддерживаемой программы для отправки списка. Пожалуйста проверьте установлен у вас почтовый клиент или программа для отправки SMS.</string>
+	
+	<string name="qr_encoder_name">Создать QR</string>
+	<string name="qr_scanner_name">Прочитать QR</string>
+	
+	<string name="qr_generate_async_message">Создаем QR код</string>
+
+</resources>

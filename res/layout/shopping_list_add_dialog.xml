@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<LinearLayout
+ 		xmlns:android="http://schemas.android.com/apk/res/android"
+ 		android:layout_width="wrap_content"
+		android:layout_height="match_parent"
+		android:divider="?android:attr/dividerHorizontal"
+		android:showDividers="middle"
+		android:orientation="vertical">
+		
+	    <LinearLayout
+			 android:layout_width="fill_parent"
+			 android:layout_height="wrap_content"
+             android:orientation="vertical" >		
+			    
+			<AutoCompleteTextView
+				 android:id="@+id/shopping_list_add_dialog_name"
+				 android:layout_width="fill_parent"
+				 android:layout_height="wrap_content"
+				 android:layout_gravity="center"
+				 android:layout_marginTop="10sp"
+				 android:layout_marginBottom="10sp"
+				 android:layout_marginLeft="5sp"
+				 android:layout_marginRight="5sp"
+				 android:completionThreshold="3"
+				 android:textSize="18sp"
+				 android:hint="@string/shopping_list_add_dialog_hint_name"
+				 android:textAppearance="?android:attr/textAppearanceLarge" />
+			
+			<EditText
+				 android:id="@+id/shopping_list_add_dialog_qty"
+				 android:layout_width="fill_parent"
+				 android:layout_height="wrap_content"
+				 android:layout_gravity="center"
+				 android:layout_marginTop="10sp"
+				 android:layout_marginBottom="10sp"
+				 android:layout_marginLeft="5sp"
+				 android:layout_marginRight="5sp"
+				 android:textSize="18sp"
+				 android:inputType="textPhonetic"
+				 android:hint="@string/shopping_list_add_dialog_hint_qty"
+				 android:textAppearance="?android:attr/textAppearanceLarge">
+			</EditText>
+		</LinearLayout>	
+		
+		<LinearLayout
+			 android:layout_width="fill_parent"
+			 android:layout_height="wrap_content"
+			 android:divider="?android:attr/dividerHorizontal"
+             android:orientation="horizontal"
+             android:showDividers="middle">
+			<Button
+			     style="?android:attr/buttonBarButtonStyle"
+				 android:id="@+id/shopping_list_add_dialog_btncancel"
+				 android:layout_width="0dp"	
+				 android:layout_weight="0.5"
+				 android:layout_height="wrap_content"
+				 android:layout_marginTop="5dp"
+				 android:textSize="18sp"
+				 android:text="@string/shopping_list_add_dialog_cancel">
+			</Button>			
+			<Button
+			     style="?android:attr/buttonBarButtonStyle"
+				 android:id="@+id/shopping_list_add_dialog_btnadd"
+				 android:layout_width="0dp"	
+				 android:layout_weight="0.5"
+				 android:layout_height="wrap_content"
+				 android:layout_marginTop="5dp"
+				 android:textSize="18sp"
+				 android:text="@string/shopping_list_add_dialog_add">
+			</Button>
+		</LinearLayout>
+</LinearLayout>

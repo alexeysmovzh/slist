@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SList</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="none"></string>
+    
+    <string name="async_title">Progress</string>
+    <string name="async_message">Generating shopping list&#8230;</string>
+    
+   	<string name="shopping_list_empty_view_hint">Press \'Add\' button \n to enter fist item\n\n or swipe screen right \n and enter food name and ingredients \n for automatic shopping list creation</string>
+    	
+    <string name="shopping_list_menu_clear">Clear</string>
+	<string name="shopping_list_menu_add">Add</string>
+	<string name="shopping_list_menu_send">Share</string>
+	
+	<string name="shopping_list_add_dialog_title">Add product</string>
+	<string name="shopping_list_add_dialog_add">Add</string>
+	<string name="shopping_list_add_dialog_cancel">Cancel</string>
+	<string name="shopping_list_add_dialog_hint_name">Enter product name</string>
+	<string name="shopping_list_add_dialog_hint_qty">and qty</string>	
+	
+	<string name="shopping_list_clear_dialog_title">Delete strikeout products?</string>
+	<string name="shopping_list_clear_dialog_ok">Yes</string>
+	<string name="shopping_list_clear_dialog_cancel">Cancel</string>
+	<string name="shopping_list_clear_dialog_hint">This action permanently delete all strikeout products. Delete?</string>
+	
+	<string name="shopping_list_replace_dialog_title">Replace or Append?</string>
+	<string name="shopping_list_replace_dialog_replace">Replace</string>
+	<string name="shopping_list_replace_dialog_append">Append</string>
+	<string name="shopping_list_replace_dialog_hint">Shopping list not empty. Replace or Append?</string>
+	
+	<string name="food_list_empty_view_hint">Press \'Add\' button \n to enter fist food \n\n or swipe screen left \n to move to shopping list</string>
+	
+	<string name="food_list_menu_del">Delete</string>
+	<string name="food_list_menu_add">Add</string>
+	<string name="food_list_menu_create">Create</string>
+	
+	<string name="food_list_arrow_desc">arrow_btn</string>
+	
+	<string name="food_list_add_dialog_title">Add Food</string>
+	<string name="food_list_add_dialog_title_rename">Rename Food</string>
+	<string name="food_list_add_dialog_save">Save</string>
+	<string name="food_list_add_dialog_cancel">Cancel</string>
+	<string name="food_list_add_dialog_hint">Enter food name</string>
+	
+	<string name="food_list_delete_dialog_title">Delete selected food?</string>
+	<string name="food_list_delete_dialog_ok">Yes</string>
+	<string name="food_list_delete_dialog_cancel">Cancel</string>
+	<string name="food_list_delete_dialog_hint">This action permanently delete this food:</string>
+	
+	
+	<string name="product_list_empty_view_hint">Press \'Add\' button \n to enter food ingredients\n \n or swipe screen left \n to return for food list</string>		
+	
+	<string name="product_list_menu_delete">Delete</string>
+	<string name="product_list_menu_add">Add</string>
+	
+	<string name="product_list_delete_dialog_title">Delete selected products?</string>
+	<string name="product_list_delete_dialog_ok">Yes</string>
+	<string name="product_list_delete_dialog_cancel">Cancel</string>
+	<string name="product_list_delete_dialog_hint">This action permanently delete this products:</string>
+	
+	<string name="share_action_title">Share with</string>
+	<string name="share_action_subject">Please buy following products</string>
+	<string name="share_action_dialog_title">Sharing error</string>
+	<string name="share_action_dialog_cancel">Close</string>	
+	<string name="share_action_error">Not found any compatible sharing program. Check if you have any sms or email program.</string>
+	
+	<string name="qr_encoder_name">QR create</string>
+	<string name="qr_scanner_name">QR read</string>
+	
+	<string name="qr_generate_async_message">Generating QR code</string>
+
+</resources>

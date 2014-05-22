@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/row_in_product"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFFFF"
+    android:orientation="horizontal" >
+    
+    <CheckBox
+	    android:id="@+id/product_checkbox"
+		android:layout_weight=".7"
+		android:layout_width="0dip"
+	 	android:layout_height="fill_parent"
+ 		android:layout_marginLeft="10sp"
+ 		android:layout_marginTop="7sp"
+ 		android:layout_marginBottom="7sp"
+ 		android:textSize="16sp" >
+	</CheckBox>
+	
+    <TextView
+	    android:id="@+id/product_qty"
+		android:layout_weight=".3"
+		android:layout_width="0dip"
+	 	android:layout_height="wrap_content"
+	 	android:layout_gravity="center_vertical"
+	 	android:layout_marginLeft="10sp"
+	 	android:layout_marginTop="7sp"
+	 	android:layout_marginBottom="7sp"
+	 	android:textSize="16sp" />
+</LinearLayout>

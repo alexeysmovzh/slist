@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ddd">
+    
+    <ListView
+        android:id="@+id/shopping_list_view"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:choiceMode="multipleChoice"
+	/>           
+	
+	<TextView
+	    android:id="@+id/shopping_list_empty"
+	    android:text="@string/shopping_list_empty_view_hint"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:gravity="center"
+	    android:textSize="22sp"
+	    android:textStyle="italic"
+    />
+        
+</RelativeLayout >

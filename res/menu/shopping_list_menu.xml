@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+	<item 
+	    android:id="@+id/shop_clear"
+	    android:title="@string/shopping_list_menu_clear"	 
+	    android:orderInCategory="0"
+	    android:showAsAction="ifRoom|withText" />
+	<item
+		android:id="@+id/shop_add"
+	    android:title="@string/shopping_list_menu_add"
+	    android:orderInCategory="1"
+	    android:showAsAction="ifRoom|withText" />	        
+	<item
+		android:id="@+id/shop_send"
+	    android:title="@string/shopping_list_menu_send"
+	    android:orderInCategory="2"
+	    android:showAsAction="ifRoom|withText" />	        
+	
+</menu>
